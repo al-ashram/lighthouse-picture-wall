@@ -10,10 +10,15 @@ body {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
-    padding: 6px; }
+    padding: 6px;
+    transition: all .3s ease-in-out; }
+    #team-members .member:hover {
+      transform: scale(1.1); }
     #team-members .member img {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      border-radius: 35px;
+      box-shadow: 20px 13px 20px #505050; }
     #team-members .member div.name {
       text-align: center; }
 
